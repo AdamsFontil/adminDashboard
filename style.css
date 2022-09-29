@@ -3,7 +3,7 @@ html {
 }
 .page {
     display: grid;
-    grid-template: 1fr 5fr 5fr/ 1fr 4fr 1fr;
+    grid-template: 1fr 3fr 3fr/ 1fr 4fr 1fr;
     justify-content: center ;
     align-content: center;
 }
@@ -56,10 +56,14 @@ html {
     background-color: white;
     display: grid;
     gap: 40px;
+    align-self: center;
 }
 .toprow1 {
     display: grid;
-    grid-template-columns: auto 1fr auto auto auto;
+    grid-template-columns: auto 1200px auto auto auto;
+    justify-content: space-around;
+    align-self: center;
+    text-align: center;
 }
 .toprow2 {
     display: grid;
@@ -79,10 +83,12 @@ html {
     font-size: 20px;
     justify-content: space-around;
     gap: 100px;
+    width: minmax(20, 1fr);
 }
 .toprow2-icon {
     display: grid;
     grid-template: 1fr 2fr/1fr 5fr;
+    align-items: center;
 }
 .user {
     grid-row: 2/3;
@@ -108,7 +114,7 @@ html {
     background-color: brown;
 } */
 .toprow2-icon img {
-    max-width: 140px;
-    max-height: 150px;
-    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
