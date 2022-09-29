@@ -14,8 +14,9 @@ html {
     grid-row: 1/ 4;
     gap: 50px;
     background-color: rgb(73, 107, 227);
+    color: white;
+    font-size: 2.4rem;
 }
-
 .projects {
     grid-row: 2/4;
     grid-column: 2/ 3;
@@ -117,4 +118,32 @@ html {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+ img {
+    fill: white;
+    background-color: red;
+    color: white;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+        'FILL' 1,
+        'wght' 700,
+        'GRAD' 200,
+        'opsz' 48
+}
+.top .material-symbols-outlined {
+    color: black;
+    font-variation-settings:
+    'FILL' 0
+}
+.toprow1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+span {
+    padding: 30px;
 }
